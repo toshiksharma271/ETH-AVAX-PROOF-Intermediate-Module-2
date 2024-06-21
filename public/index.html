@@ -26,9 +26,31 @@
     -->
     <title>React App</title>
   </head>
-  <body>
+  <body id="animation-bg" >
     <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
+    <div id="root" ></div>
+    <script src="script.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+   <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.birds.min.js"></script>
+   <script>
+   VANTA.BIRDS({
+     el: "#animation-bg",
+     mouseControls: true,
+     touchControls: true,
+     gyroControls: false,
+     minHeight: 200.00,
+     minWidth: 200.00,
+     scale: 1.00,
+     scaleMobile: 1.00,
+     backgroundColor: 0x92c2c,
+     color1: 0x16a297,
+     color2: 0x6999f,
+     birdSize: 0.90,
+     wingSpan: 22.00,
+     speedLimit: 4.00,
+     quantity: 3.00
+   })
+   </script>
     <!--
       This HTML file is a template.
       If you open it directly in the browser, you will see an empty page.
