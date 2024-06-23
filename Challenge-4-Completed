@@ -3,7 +3,7 @@
 //I am adding some images on wiki now UI look like!
 
 https://github.com/toshiksharma271/ETH-AVAX-PROOF-Intermediate-Module-2/wiki
-
+![](https://i.imgur.com/i4t5rCe.png)
 
 import {useState, useEffect} from "react";
 import {ethers} from "ethers";
