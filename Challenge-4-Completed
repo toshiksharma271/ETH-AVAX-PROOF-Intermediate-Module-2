@@ -1,9 +1,11 @@
 //I have added the random background(means everytime the background will change on reload) also I have added some CSS to the container below!
 //tried pull request by access was denied , so just adding what i have change as chris told us in the video 
 //I am adding some images on wiki now UI look like!
-
+Please click on the link or go to my wiki to see the UI
+                              |
 https://github.com/toshiksharma271/ETH-AVAX-PROOF-Intermediate-Module-2/wiki
-![](https://i.imgur.com/i4t5rCe.png)
+
+
 
 import {useState, useEffect} from "react";
 import {ethers} from "ethers";
